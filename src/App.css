@@ -1,38 +1,604 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background-color: WHITE;
+min-height: 100%;
+/* background-image: url("https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") */
+;
+ background-image: linear-gradient(to right, rgb(194, 194, 194) 0%, rgb(12, 181, 233) 100%); 
+background-position: center center;
+/* background-image: linear-gradient(to left, rgb(5, 8, 40), rgb(1, 4, 39)); */
+ font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgb(5, 8, 40), rgb(1, 4, 39));
+}
+
+.pages {
+  color: blue;
   text-align: center;
+  font-size: 3.5rem;
+  margin-top: 10%;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#start{
+  font-size: 30px;
+  color: rgb(163, 24, 24);
+  background-color: white;
+  font-family: monospace;
+ background-image: linear-gradient(#030101, #000000); 
+ border: 1px solid #000000; 
+ border-radius: 5px; box-sizing: border-box;
+ 
+}
+#home{
+  color: white;
+  background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(121, 118, 118));
+}
+#log1{
+  position: absolute;
+  bottom: -100px;
+  left: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+#d1{
+  position: absolute;
+  bottom: -100px;
+  left: 900px;
+  height:400px;
+}
+#p1{
+  color: #000000;
+  position: absolute;
+  bottom: -300px;
+  left: 30px;
+  font-size: 30px;
+}
+#p2{
+  color: #000000;
+  position: absolute;
+  bottom: -300px;
+  left: 950px;
+  font-size: 30px;
+}
+#Lgin{
+  position: absolute;
+  bottom: -900px;
+  left: 600px;
+  height:400px;
+ 
+}
+#Lgin2{
+  position: absolute;
+  bottom: -950px;
+  left: 1150px;
+  height:400px;
+ width: 500px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+#Lgin3{
+  position: absolute;
+  bottom: -950px;
+  left: 200px;
+  height:400px;
+  width: 500px;
+ 
+}
+#con{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+
+.page__title {
+  text-align: center;
+  margin-top: 15px;
+  position: relative;
+  bottom: 30px;
+  background: -webkit-linear-gradient(rgb(53, 202, 53), #bbbbbb);
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #eee;
+  padding: 25px;
+  border-radius: 7px;
+}
+
+.contact__form input, .contact__form textarea {
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  resize: vertical;
+  outline: none;
+  box-sizing: content-box;
+  border-bottom: solid 3px transparent;
+  margin: 5px 0;
+}
+
+.contact__form label {
+  font-weight: 500;
+}
+
+.contact__form input:focus, .contact__form textarea:focus {
+  border-bottom: solid 3px rgb(0, 119, 255);
+}
+
+
+
+
+.card {
+  border-radius: 55px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #81ecec;
+  margin: 150px 0;
+  height: 200px;
+  left: 730px;
+  width: 400px;
+  box-shadow: 0 2px 5px #b12929;
+
+}
+
+.top {
+  border-radius: 25px 25px 0 0;
+  height: 100px;
+  width: 100%;
+  background-color: #00cec9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.name {
+  font-size: 30px;
+  color: rgb(240, 232, 232);
+ 
+  flex: 1;
+  margin: 10% 20px 0;
+  position: relative;
+  left: 30px;
+  top: 45px;
+}
+
+.card img {
+  margin: 30px 20px 0 0;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 120px;
+  height: 120px;
+}
+
+.bottom {
+  margin-top: 120px;
+}
+
+.info {
+  margin: 20px 0;
+  color: #fdfdfd;
+  font-size: 30px;
+  position: relative;
+  left: -65px;
+}
+.about1{
+  background-color: white;
+  position: relative;
+  top: 0px;
+}
+.ab{
+  color:rgb(19, 20, 19)
+}
+#para{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color:rgb(150, 143, 54);
+  position: relative;
+  left: 500px;
+  top: -200px;
+}
+#start{
+ font-size: 40px;
+
+}
+
+
+.icon{
+  position: relative;
+  bottom: 30px;
+  left: 150px;
+}
+#git{
+  position: relative;
+  bottom: -60px;
+  left: -50px;
+}
+label{
+  position: relative;
+  
+}
+
+
+
+.skills{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-spacing: 3em;
+  font-size: 50px;
+}
+.icon2{
+  color: white;
+  position: relative;
+  left: -600px;
+  bottom: -80px;
+}
+.icon3{
+  color: white;
+
+
+ 
+
+  position: relative;
+  left: -30px;
+  bottom: 0px;
+
+
+}
+
+
+
+
+
+
+
+.card2 {
+  border-radius: 55px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #81ecec;
+  margin: 150px 0;
+  height: 400px;
+  left: 730px;
+  
+  width: 400px;
+  box-shadow: 0 2px 5px #b12929;
+  bottom: 50px;
+
+}
+.card3 {
+  border-radius: 55px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #81ecec;
+  margin: 150px 0;
+  height: 400px;
+  left: -630px;
+  top: -350px;
+  width: 400px;
+  box-shadow: 0 2px 5px #b12929;
+
+}
+.card4 {
+  border-radius: 55px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #81ecec;
+  margin: 150px 0;
+  height: 400px;
+  left: 1200px;
+  top: -250px;
+  width: 400px;
+  box-shadow: 0 2px 5px #b12929;
+
+}
+.card5{
+  color: white;
+  position: relative;
+  left: 1200px;
+  top: -1030px;
+}
+
+
+
+#p2{
+  
+  color: white;
+  font-size: 20px;
+}
+#p1{
+  color: white;
+  font-size: 20px;
+}
+
+#p3{
+  position: relative;
+  bottom: -1550px;
+  font-size: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#blg{
+
+
+  background-color:white;
+  height: 1800px;
+  
+ 
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.image img {
+  width: min(20rem, 50%);
+  border-radius: 15%;
+  position: relative;
+  bottom: 1200px;
+
+}
+.image1{
+background-color: white;
+
+}
+
+.section {
+ background-color: rgb(10, 18, 46);
+ background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 0, 0));
+height: 1700px;
+}
+
+.section__container {
+  position: relative;
+
+ 
+
+ 
+ 
+ 
+}
+
+
+
+.action__btns {
+  display: flex;
+  gap: 5rem;
+}
+
+.action__btns button {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 1rem;
+  outline: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 25px;
+  transition: 0.3s;
+  cursor: pointer;
+  position: relative;
+  bottom: -30px;
+  left: 750px;
+}
+
+
+
+
+
+
+.portfolio:hover {
+  background-color: var(--primary-color-dark);
+  color: #ffffff;
+
+}
+.title{
+  color:white
+}
+.subtitle{
+  color:white
+}
+#yt{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  bottom: -600px;
+  left: 700px;
+}
+#fb{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  bottom: -600px;
+  left: 500px;
+ 
+}
+#fb2{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  bottom: -600px;
+  left: 300px;
+ 
+}
+#enj{
+  position: relative;
+
+  bottom: -100px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: wheat;
+}
+#lol{
+  position: relative;
+  height: 550px;
+  width: 650px;
+  bottom: -200px;
+  left: -530px;
+ 
+}
+#val{
+  position: relative;
+  height: 550px;
+  width: 650px;
+  bottom: -200px;
+  left: -330px;
+ 
+}
+
+#pc1{
+  position: relative;
+  top:-878px;
+  left: 730px;
+}
+#Testtt{
+  font-size: 500px;
+}
+
+.container2
+ {
+position: relative;
+left: 600px;
+  width: 100%;
+  height: 800px;
+  min-height: 500px;
+  max-width: 530px;
+  min-width: 250px;
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #ffeaa7;
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+
+
+  color: hsl(198, 1%, 29%);
+  font-family: "Architects Daughter", cursive;
+
+  font-size: 50%;
+}
+
+.heading h1 {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 10% 5% 50% 5%/5% 20% 25% 20%;
+  background-color: #fdcb6e;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px #fdcb6e;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1rem;
+  color: hsla(260, 2%, 25%, 0.7);
+  width: 70%;
+  margin-bottom: 20px;
+}
+#add {
+  background: #f1f5f8;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid hsl(198, 1%, 29%);
+  position: relative;
+  top: -60px;
+  left: 430px;
+}
+
+.project-heading {
+  color: rgb(0, 0, 0) !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
+
+
+.tech-icons {
+  font-size: 4.5em ;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 5 !important;
+  border: 1.7px solid rgb(89, 0, 190) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(117, 0, 250, 0.37) !important;
+  transition: all 0.4s ease 0s !important;
+  color: white;
+}
+
+
+
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(117, 0, 250, 1) !important;
+}
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+}
+#vis{
+  position: relative;
+  bottom: -990px;
+  left: -500px;
+}
+#vis2{
+  position: relative;
+  bottom: -780px;
+  left: -200px;
+}
+#vis3{
+  position: relative;
+  bottom: -570px;
+  left: 100px;
+}
+#vis4{
+  position: relative;
+  bottom: -350px;
+  left: 400px;
+}
+#vis5{
+  position: relative;
+  bottom: -140px;
+  left: 700px;
+}
+
+strong{
+  position: relative
+;
+color: wheat;
+}
+
+.project-heading{
+  position: relative
+  ;
+  bottom: -800px;
+  color: wheat;
+  
 }
