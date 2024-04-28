@@ -6,6 +6,7 @@ const cors = require('cors');
 
 const app = express();
 const port = 5000;
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 // Serve static assets
 app.use("/assets", express.static("assets"));
@@ -50,6 +51,7 @@ app.post('/api/submitForm', (req, res) => {
             res.status(200).send('Data inserted successfully');
         }
     });
+    
 });
 
 // Start the server

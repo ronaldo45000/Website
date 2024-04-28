@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Router>
-        <NavBar />
+      <NavBar />
 
         <div className="pages">
           <Routes>
@@ -22,7 +22,9 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about2" element={<About2 />} />
+
           </Routes>
+
         </div>
       </Router>
   </>

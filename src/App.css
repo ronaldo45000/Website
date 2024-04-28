@@ -52,6 +52,28 @@ background-position: center center;
   left: 900px;
   height:400px;
 }
+
+#Lgin4{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  bottom: -50px;
+  left: -100px;
+  transition: all .55s ease;
+
+}
+#Lgin5{
+  position: relative;
+
+  width: 400px;
+  height: 400px;
+  bottom: -50px;
+  left: 100px;
+
+  transition: all .55s ease;
+  transition: transform 2s ease
+}
+
 #p1{
   color: #000000;
   position: absolute;
@@ -90,6 +112,9 @@ background-position: center center;
   width: 500px;
  
 }
+
+
+
 #con{
   display: flex;
   align-items: center;
@@ -147,6 +172,7 @@ background-position: center center;
   height: 200px;
   left: 730px;
   width: 400px;
+  top: -30px;
   box-shadow: 0 2px 5px #b12929;
 
 }
@@ -155,7 +181,6 @@ background-position: center center;
   border-radius: 25px 25px 0 0;
   height: 100px;
   width: 100%;
-  background-color: #00cec9;
   position: absolute;
   top: 0;
   left: 0;
@@ -518,7 +543,7 @@ left: 600px;
   margin-bottom: 20px;
 }
 #add {
-  background: #f1f5f8;
+  background: #117dcf;
   display: block;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -552,7 +577,44 @@ left: 600px;
 }
 
 
-
+#log1:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgb(0, 26, 255) !important;
+}
+#d1:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgb(0, 26, 255) !important;
+}
+#Lgin4:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgb(0, 26, 255) !important;
+}
+#Lgin5:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgb(0, 26, 255) !important;
+}
+img {
+  border-radius: 68px;
+}
+#Lgin:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgb(0, 26, 255) !important;
+}
+#Lgin2:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgb(0, 26, 255) !important;
+}
+#Lgin3:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgb(0, 26, 255) !important;
+}
 
 .tech-icons:hover {
   transform: scale(1.05) !important;
@@ -565,9 +627,25 @@ left: 600px;
 }
 #vis{
   position: relative;
-  bottom: -990px;
-  left: -500px;
+  bottom: -1290px;
+  left: -200px;
 }
+#vis6{
+  position: relative;
+  bottom: -510px;
+  left: -200px;
+}
+#vis7{
+  position: relative;
+  bottom: -300px;
+  left: 100px;
+}
+#vis8{
+  position: relative;
+  bottom: -90px;
+  left: 400px;
+}
+
 #vis2{
   position: relative;
   bottom: -780px;
@@ -585,8 +663,8 @@ left: 600px;
 }
 #vis5{
   position: relative;
-  bottom: -140px;
-  left: 700px;
+  bottom: -440px;
+  left: 400px;
 }
 
 strong{
@@ -602,3 +680,207 @@ color: wheat;
   color: wheat;
   
 }
+
+
+#p1{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 17px;
+  letter-spacing: -1.5px;
+  word-spacing: 0.6px;
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  position: relative;
+  bottom: -630px;
+  left: -450px;
+
+}
+
+#p2d{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 17px;
+  letter-spacing: -1.5px;
+  word-spacing: 0.6px;
+  color: #ffffff;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  position: relative;
+  bottom: 130px;
+  left: -000px;
+
+}
+
+#p2d5{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 17px;
+  letter-spacing: -1.5px;
+  word-spacing: 0.6px;
+  color: #ffffff;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  position: relative;
+  bottom: -100px;
+  left: -000px;
+
+}
+
+
+
+
+#p2d6{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 17px;
+  letter-spacing: -1.5px;
+  word-spacing: 0.6px;
+  color: #ffffff;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  position: relative;
+  bottom: 60px;
+  left: -000px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+.container{
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    background: #fff;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    left: 330px;
+}
+
+.title-text {
+    text-align: center;
+    background-color: rgb(91, 80, 255);
+    color: #fff;
+    font-weight: 10;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.container .skill-box {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.skill-box .title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.skill-box .skill-bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0,0, 0, 0.1);
+}
+
+.skill-box .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 95%;
+    border-radius: 6px;
+    background: rgb(0, 183, 255);
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+
+.skill-per.css {
+    width: 89%;
+    animation-delay: 0.1s;
+}
+
+.skill-per.javascript{
+    width: 60%;
+    animation-delay: 0.2s;
+}
+.skill-per.nodejs{
+    width: 60%;
+    animation-delay: 0.3s;
+}
+.skill-per.reactjs{
+    width: 70%;
+    animation-delay: 0.3s;
+}
+.skill-per.expressjs{
+    width: 75%;
+    animation-delay: 0.3s;
+}
+
+
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: crimson;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,6 @@
 import React , { useState } from "react";
+import { FaDocker } from "react-icons/fa";
+
 import { TbFileTypeSql } from "react-icons/tb"
 import {
   SiVisualstudiocode,
@@ -6,7 +8,10 @@ import {
 
   SiIntellijidea ,
   SiPycharm ,
-  SiEclipseide 
+  SiEclipseide ,
+  SiGooglecolab,
+    
+
 } from "react-icons/si";
 import { Col, Row } from "react-bootstrap";
 import { Container } from "react-bootstrap";
@@ -72,6 +77,17 @@ export const  About2 = () =>{
       <Col xs={4} md={2} id="vis5" className="tech-icons">
         <SiEclipseide />
       </Col>
+      <Col xs={4} md={2} id="vis6" className="tech-icons">
+        <SiGooglecolab />
+      </Col>
+      <Col xs={4} md={2} id="vis7" className="tech-icons">
+        <SiPostman/>
+      </Col>
+      <Col xs={4} md={2} id="vis8" className="tech-icons">
+        <FaDocker/>
+      </Col>
+
+
     </Row>
       </div>
       </Container>

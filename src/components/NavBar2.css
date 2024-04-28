@@ -9,6 +9,8 @@
     position: sticky;
     top: 0;
     z-index: 20;
+    transition: all .55s ease;
+    transition: transform 2s ease
   }
   
   .nav-container {
@@ -19,6 +21,8 @@
     height: 80px;
     max-width: 1500px;
     position: relative;
+    transition: all .55s ease;
+    transition: transform 2s ease
   }
   
   .nav-logo {
@@ -155,7 +159,7 @@
 
  #next{
   position: relative;
-  bottom: -2000px;
+  bottom: -2600px;
   display: flex;
   justify-content: center; /* Horizontal centering */
   align-items: center; /* Vertical centering */
@@ -163,7 +167,7 @@
 } 
 
 #unique2:hover {
-  background-color: rgb(0, 0, 0); 
+  background-color: rgb(255, 255, 255); 
 }
 
 #unique{
@@ -172,20 +176,33 @@
   font-size: 32px;
 }
 
-#unique2{
+#unique2 {
   color: rgb(243, 158, 0);
   font-family: cursive;
   font-size: 32px;
 }
+
+
 #ace{
   font-family: cursive;
   font-weight: bolder;
 }
 
 #unique3{
-  color: rgb(243, 158, 0);
+  background-color: rgb(238, 255, 86); /* Change to the desired color */
   font-family: cursive;
-  font-size: 32px;
+  font-size: 22px;
   text-decoration: underline;
-  text-decoration-color: black;
+  position: relative;
+  bottom: 440px;
+  color: #000000  !important;
+}
+#unique3:hover {
+  background-color: rgb(58, 255, 255) ; /* Change to the desired hover color */
+}
+button{
+  color:beige
+}
+.success-message {
+  font-size: 14px; /* Adjust the font size as needed */
 }

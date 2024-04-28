@@ -17,7 +17,7 @@ export const Blog = () => {
         <div class="content">
           <p class="subtitle">HELLO</p>
           <h1 class="title">
-            I'm <span>Thinh Le<br />a</span> Web Developer
+            I'm <span>Thinh Le.<br /></span>
           
           <p class="description">
             Welcome to my portfolio.

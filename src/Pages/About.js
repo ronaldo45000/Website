@@ -14,9 +14,8 @@ export const About = () => {
       </div>
       <div className="bottom">
         <p className="info">Onme7052@gmail.com</p>
-        <p className="info">123 456 789</p>
       </div>
-      <p id= "para"> I am a full stack developer in making websites. My skils are strong in front end and back end. 
+      <p id= "para"> I am a full stack developer in software engineer and making websites. My skills are strong in front end and back end. 
       I am excited to work into a new enviroment that focuses about website development. 
         <p>I am confident to learn fast and improve myself to fit in your project.
 
@@ -53,8 +52,49 @@ export const About = () => {
      <div className="card5">Others  <FaPlus/> </div>
      </div>
      </div>
+
+     <div className="container">
+           <h1 className="title-text">Programming Languages</h1>
+
+           <div className="skill-box">
+               <span className="title">Java</span>
+               <div className="skill-bar">
+                   <span className="skill-per html">
+                       <span className="tooltip">95%</span>
+                   </span>
+               </div>
+           </div>
+           <div className="skill-box">
+               <span className="title">Javascript</span>
+               <div className="skill-bar">
+                   <span className="skill-per css">
+                       <span className="tooltip">89%</span>
+                   </span>
+               </div>
+           </div>
+           <div className="skill-box">
+               <span className="title">Python</span>
+               <div className="skill-bar">
+                   <span className="skill-per javascript">
+                       <span className="tooltip">60%</span>
+                   </span>
+               </div>
+           </div>
+           <div className="skill-box">
+               <span className="title">C#</span>
+               <div className="skill-bar">
+                   <span className="skill-per nodejs">
+                       <span className="tooltip">60%</span>
+                   </span>
+               </div>
+           </div>
+          
+           
+       </div>
+
+
     </div>
-   
+
    
   );
 };
