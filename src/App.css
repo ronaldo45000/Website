@@ -57,7 +57,7 @@ background-position: center center;
   position: relative;
   width: 400px;
   height: 400px;
-  bottom: -50px;
+  bottom: 100px;
   left: -100px;
   transition: all .55s ease;
 
@@ -67,7 +67,7 @@ background-position: center center;
 
   width: 400px;
   height: 400px;
-  bottom: -50px;
+  bottom: 100px;
   left: 100px;
 
   transition: all .55s ease;
@@ -726,7 +726,7 @@ color: wheat;
   font-variant: normal;
   text-transform: none;
   position: relative;
-  bottom: -100px;
+  bottom: 10px;
   left: -000px;
 
 }
@@ -745,7 +745,7 @@ color: wheat;
   font-variant: normal;
   text-transform: none;
   position: relative;
-  bottom: 60px;
+  bottom: 10px;
   left: -000px;
 
 }
@@ -884,3 +884,58 @@ color: wheat;
 
 
 
+.text-box {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  
+  background-color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.text-box2 {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-bottom: -90px ;
+  max-width: 800px;
+  
+  background-color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.text-box5 {
+  border: 2px solid #ccc;
+  padding: 20px;
+  max-width: 800px;
+  height: 80px;
+  background-color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: relative;
+  top: -86px;
+  left: 520px;
+}
+.text-box6 {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-bottom: -90px ;
+  max-width: 800px;
+  
+  background-color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: relative;
+  top: -220px;
+  left: 540px;
+  transition: all .55s ease;
+  transition: transform 2s ease
+}
+#res:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgb(197, 16, 16) !important;
+}
+.text-box p, .text-box ol {
+  margin: 0 0 10px;
+}
