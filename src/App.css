@@ -172,7 +172,7 @@ background-position: center center;
   height: 200px;
   left: 730px;
   width: 400px;
-  top: -30px;
+  top: 230px;
   box-shadow: 0 2px 5px #b12929;
 
 }
@@ -220,6 +220,16 @@ background-position: center center;
   position: relative;
   left: -65px;
 }
+
+.info2 {
+  margin: 20px 0;
+  color: #fdfdfd;
+  font-size: 30px;
+  position: relative;
+  bottom:-230px;
+  left: -65px;
+  white-space: nowrap;  /* Prevents text from wrapping to the next line */
+}
 .about1{
   background-color: white;
   position: relative;
@@ -249,7 +259,7 @@ background-position: center center;
 }
 #git{
   position: relative;
-  bottom: -60px;
+  bottom: -300px;
   left: -50px;
 }
 label{
